@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szám</title>
+    <style>
+        fieldset{
+            background-color: aqua;
+        }
+        legend{
+            color: black;
+            background-color: blue;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <a class="links" href="Index.html">FŐOLDAL</a> | 
+    <a class="links" href="Keplink.html">KÉPLINK</a> |
+    <a class="links" href="Listak.html">LISTA</a> |
+    <a class="links" href="Table.html">ÓRAREND</a> |
+    <a class="links" href="Urlap.html">ŰRLAP</a>|
+    <a class="links" href="Evszakok.html">ÉVSZAKOK</a>|
+    <a class="links" href="Homoktövis.html">Homoktovis</a> |
+    <a class="activepage" href="szam.html">SZÁM</a>|
+    <a class="links" href="pita.html">PITAGORASZ</a>
+    <from action="javasricpt:void(0)">
+        <fieldset>
+            <legend> számol</legend>
+            <br>
+            <input type="Number" name="sz" id="a" placeholder="szám1" required>
+            <input type=" Number" name="sz" id="b" placeholder="szám2" required>
+            <input type="Number" name="sz" id="c" placeholder="eredmény" readonly>
+            <br><br>
+            <input type="submit" value="+" onclick="ad()">
+            <input type="submit" value="-" onclick="kiv()"> 
+            <input type="submit" value="*"onclick="szor()">
+            <input type="submit" value="/"onclick="oszt()">
+            <input type="reset"  value="törlés">
+        </fieldset>
+        <script>
+            function ad() {
+                c.value= Number(a.value) + Number(b.value)
+            }
+            function kiv() {
+                c.value= Number(a.value) - Number(b.value)
+            }
+            function szor() {
+                c.value= Number(a.value) * Number(b.value)
+            }
+
+            function oszt() {
+                c.value= Number(a.value) / Number(b.value)
+            }
+
+
+
+
+        </script>
+    </from>
+</body>
+</html>

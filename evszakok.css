@@ -1,0 +1,31 @@
+img{
+    border: 5px solid black;
+    margin: 20px;
+    border-radius: 30%;
+}
+
+.spring{
+    float: left;
+}
+.summer{
+    float: left;
+}
+.winter{
+    float: left;
+}
+.autumn{
+    float: left;
+}
+p{
+    text-align: center;
+}
+.spring:hover{transform: scale(1.1);}
+.summer:hover{transform: scale(1.1);}
+.winter:hover{transform: scale(1.1);}
+.autumn:hover{transform: scale(1.1);}
+h3{
+    color:yellowgreen
+}
+h1{
+    color: blueviolet;
+}

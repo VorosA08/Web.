@@ -1,0 +1,54 @@
+body {
+	background-color : lightblue;
+	
+	
+	
+	
+}
+.activepage{
+	text-decoration : none;
+	color : yellow;
+
+
+}
+
+.links {
+	
+	text-decoration : none;
+	
+}
+
+
+.links:hover {
+	
+	color: hotpink
+	
+	
+}
+
+.listakback{
+	background-color: lightgrey;
+	margin-right: 650px;
+	
+	
+}
+
+li{
+	color: white;
+	
+	
+	
+}
+
+
+td {
+	background-color: darkgrey;
+	
+	
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}

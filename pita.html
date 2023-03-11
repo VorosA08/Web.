@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=TiltWarp&display=swap');
+        .font1{
+            font-family:'Tilt Warp' 
+        }
+        body{
+            background-color: darkgrey;
+           color: black;
+        }
+    </style>
+</head>
+<body>
+    <a class="links" href="Index.html">FŐOLDAL</a> | 
+    <a class="links" href="Keplink.html">KÉPLINK</a> |
+    <a class="links" href="Listak.html">LISTA</a> |
+    <a class="links" href="Table.html">ÓRAREND</a> |
+    <a class="links" href="Urlap.html">ŰRLAP</a> |
+	 <a class="links" href="Evszakok.html">ÉVSZAKOK</a>|
+     <a class="links" href="Homoktövis.html">HOMOKTOVIS</a> |
+     <a class="links" href="szam.html">SZÁM</a>|
+     <a class="activepage" href="pita.html">PITAGORASZ</a>
+    <h1>Pitagorasz Tétel Számoló</h1>
+    <img src="th.jfif" alt="Pitagorasz">
+     <form action="javascript:void(0)">
+        <fieldset style="width:50%">
+            <br>
+            <legend>Adj meg legalább két oldalt!</legend>
+            <label for="a"> a oldal</label>
+            <input class="font1" type="text" name="pit" id="a" oninput="szamol()"> <br>
+            <label for="b"> b oldal</label>
+            <input class="font1" type="text" name="pit" id="b" oninput="szamol()"> <br>
+            <label for="c"> c oldal</label>
+            <input class="font1" type="text" name="pit" id="c" oninput="szamol()"> <br>
+            <input type="button" name="pit" id="c" value="TÖRLÉS" onclick="torol()"> 
+        </fieldset>
+     </form>
+     <h3>A megadott paraméterek alapján rajzolt háromszög:</h3>
+     <script>
+        function szamol() {
+            if (a.value !=0 && b.value !=0)
+            c.value = Math.sqrt((a.value = a.value) + (b.value = b.value))
+            else if
+        }
+        function torol() {
+            a.value ="";
+            b.value ="";
+            c.value ="";
+        }
+     </script>
+</body>
+</html>
